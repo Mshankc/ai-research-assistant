@@ -1,0 +1,20 @@
+# Environments
+.env
+venv/
+.venv/
+.uv_python/
+.uv_cache/
+
+# Databases & Data
+chroma_db/
+data/*
+!data/.gitkeep
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac
+.DS_Store
